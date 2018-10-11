@@ -18,14 +18,14 @@ public class FirstTest {
 
         capabilites.setCapability("platformName","Android");
         capabilites.setCapability("deviceName","AndroidTestDevice");
-        capabilites.setCapability("platformVersion","8.1");
+        capabilites.setCapability("platformVersion","6.0");
         capabilites.setCapability("automationName","Appium");
-        capabilites.setCapability("appPackage","org.Wikipedia");
+        capabilites.setCapability("appPackage","org.wikipedia");
         capabilites.setCapability("appActivity",".main.MainActivity");
         capabilites.setCapability("app","/Users/apalnov/Desktop/Auto Mobile/Lesson 2/JavaAppiumAutomation/apks/org.wikipedia.apk");
 
 
-        driver = new AndroidDriver(new URL("http://127.0.0.1:4733/wd/hub"), capabilites);
+        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilites);
     }
 
     @After
